@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    // Changing module resolution to nodenext breaks typings in swrv
+    // Comment to fix
+    "moduleResolution": "nodenext"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
